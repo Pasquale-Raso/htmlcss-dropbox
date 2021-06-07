@@ -5,7 +5,6 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: blue;
 }
 
 .clearfix::after {
@@ -58,12 +57,6 @@ body {
     margin: 10px;
     text-decoration: none;
 }
-.spazio{
-    width: 20%;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    float: left;
-}
 
 .boxbottone-inizia{
     width: 12%;
@@ -88,4 +81,61 @@ body {
     font-size: 14px;
     float: right;
 }
+
 /* <!-- sidebar --> */
+.sidebar-background{
+    background-color: rgb(180, 208, 231);
+}
+
+.container-sidebar{
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.sidebar-box1{
+    width: 40%;
+    float: left;
+}
+
+.bottone-blu-sidebar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(0, 17, 255);
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 70px;
+}
+.freccia{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.sidebar-box2{
+    width: 60%;
+    float: right;
+    position: relative;
+}
+
+#img-sidebar{
+    width: 100%;
+    position: absolute;
+    transform: translate( -50%, 0%);
+    top: 50%;
+    left: 60%;    
+}
+/* <!-- main --> */
+/* <!-- sezione1 --> */
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.h2-sezione1{
+    padding-top: 150px;
+}
