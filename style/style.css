@@ -214,6 +214,9 @@ h1{
     list-style-type: none;
     line-height: 30px;
 }
+
+/* <!-- sezione2 --> */
+
 .box-colonne-sezione-2{
     padding: 8px;
     padding-top: 40px;
@@ -283,3 +286,28 @@ h1{
     font-size: 15px;
     text-align: center;
 }
+
+/* <!-- sezione3 --> */
+
+.riga-a, .riga-b{
+    width: 100%;
+}
+.box1-sezione3, .box2-sezione3, .box3-sezione3{
+    width: calc( 100% / 3);
+    float: left;
+    padding: 20px;
+}
+.img-sezione3{
+    width: 80%;
+    height: 80%;
+}
+h5{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.scopri-di-più-sui-nostri-clienti{
+    color: rgb(0, 17, 255);
+    line-height: 40px;
+    padding-bottom: 50px;
+}
+/* <!-- sezione4 --> */
