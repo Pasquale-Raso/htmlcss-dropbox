@@ -17,6 +17,7 @@ body {
 .box-alto{
     width: 100%;
     background-color: white;
+    position: fixed;
 }
 
 .box-logo{
@@ -90,6 +91,7 @@ body {
 .container-sidebar{
     width: 85%;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 h1{
@@ -147,13 +149,12 @@ h1{
     padding-bottom: 10px;
 }
 
-.box-colonne{
+.box-colonne-sezione-1{
     width: 100%;
 }
 
 .box1-sezione1, .box2-sezione1, .box3-sezione1{
     width: calc( 100% / 3);
-    height: 300px;
     float: left;
     padding: 8px;
     font-size: 14px;
@@ -194,35 +195,91 @@ h1{
     line-height: 100px;
     margin-left: 20px;
 }
-
 .acquista-ora{
     color: blue;
     text-decoration: none;
 }
-
 .hrbox{
     width: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .hrbox{
     width: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .apici li{
     padding-left: 30p;
     list-style-type: none;
     line-height: 30px;
 }
-
-.box-a-sezione2{
-    width: 100%;
-    height: 50px;
-    border: 1px solid grey;
-    background-color: blanchedalmond;
+.box-colonne-sezione-2{
+    padding: 8px;
+    padding-top: 40px;
 }
-
-
+.box-a-sezione2{
+    border: 1px solid grey;
+    text-align: center;
+    padding: 4px;
+}
+.box-b-sezione2{
+    border: 1px solid grey;
+    padding: 20px;
+    line-height: 30px;
+    height: 130px;
+}
+.box-enterprise{
+    width: 70%;
+    float: left;
+}
+.contatti-prezzi{
+    font-size: 14px;
+}
+.soluzioni{
+    font-size: 12px;
+}
+.box-contatta-ufficio-vendite{
+    float: right;
+}
+.bottone-blu-contatta-ufficio-vendite a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(0, 17, 255);
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.box-foto-scritta{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 70px;
+}
+.box-foto-scritta-box-a{
+    padding-top: 50px;
+    width: 50%;
+    float: left;
+}
+.box-foto-scritta-box-b{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 50%;
+    float: right;
+}
+.img-partner{
+    width: 100%;
+    height: 100%;
+}
+.tex-partner{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.bottone-bianco-trova-partner a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    text-align: center;
+}
