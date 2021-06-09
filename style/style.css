@@ -428,3 +428,64 @@ h5{
     margin-bottom: 50px;
 }
 /* <!-- sezione5 --> */
+
+.sezione5{
+width: 100%;
+background-color: rgb(180, 208, 231);
+position: relative;
+}
+.sezione5box1{
+    width: 50%;
+    float: left;
+}
+.sezione5box2{
+    width: 50%;
+    float: left;
+}
+.portadropbox{
+    font-size: 30px;
+    color: rgb(97, 8, 43);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bottone-bianco-sezione5 a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%; 
+}
+.sezione5b{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.h2Domandefrequenti{
+    padding-bottom: 60px;
+}
+
+.rigasez5{
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: gray rgb(255, 255, 255) gray rgb(255, 255, 255);
+}
+.rigasez5b{
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: gray rgb(255, 255, 255) gray rgb(255, 255, 255);
+}
+.h5sezione5b{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icona{
+    width: 30px;
+    float: right;
+    font-size: 20px;
+}
