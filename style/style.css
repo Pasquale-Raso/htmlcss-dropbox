@@ -489,3 +489,58 @@ position: relative;
     float: right;
     font-size: 20px;
 }
+/* footer */
+
+.background-scuro{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px;
+}
+ .colonne{
+    width: calc( 100% / 5);
+    float: left;
+}
+.titolo-li{
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.semplici-li-a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+.semplici-li-a:hover {
+    text-decoration: underline;
+}
+.ul{
+    list-style-type: none;
+    line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 100px;
+}
+hr{
+    margin-top: 20px;
+}
+#logo2{
+    text-align: center;
+    vertical-align: middle;
+    margin: 30px;
+}
+.bottonebluregistrati{
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: rgb(55, 157, 252);
+    border-radius: 20px;
+    padding: 15px 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px 2px #3a3a3a;
+    float: right;
+    margin-top: 20px;
+}
+.it{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
