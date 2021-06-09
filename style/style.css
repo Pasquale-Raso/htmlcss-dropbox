@@ -309,5 +309,122 @@ h5{
     color: rgb(0, 17, 255);
     line-height: 40px;
     padding-bottom: 50px;
+    font-size: 12px;
 }
 /* <!-- sezione4 --> */
+
+.sezione4{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.colonna-grigia{
+    width: 520px;
+    float: left;
+}
+
+.verde{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(162, 211, 155);
+    float: left;
+    padding: 50px;
+    position: relative;
+}
+.marrone{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(97, 8, 43);
+    float: left;
+    position: relative;
+}
+.blu{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 147, 206);
+    float: left;
+    position: relative;
+}
+.rosso{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 28, 28);
+    float: left;
+    position: relative;  
+}
+.grigio{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    padding: 30px;
+    padding-top: 150px;
+}
+
+.porpora{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(213, 0, 31);
+    float: left;
+    padding: 50px;
+    position: relative;
+    
+}
+.azzurro{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(180, 208, 231);
+    float: left;
+    position: relative;
+}
+.bluscuro{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 36, 129);
+    float: left;
+    position: relative;
+
+}
+.giallo{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 216, 48);
+    float: left;
+    position: relative;
+}
+.w-30{
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+.img-sez4{
+    filter:invert(1);
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.university_of_florida{
+    height: 10%;
+}
+
+.designit{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 15%;
+}
+.hrbox2{
+    width: 10%;
+    margin-bottom: 30px;
+}
+
+.autore{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* <!-- sezione5 --> */
